@@ -28,8 +28,8 @@ public class StargateCIT {
         // ...
 
         // When
-        PipedInputStream outOfTheVortex = stargateT.accessAtTheGatesNetwork("stargateR");
-        boolean hasConnected = stargateT.pipedConnectionWith(outOfTheVortex);
+        PipedInputStream outputOfTheVortex = stargateT.accessToTheGatesNetwork("stargateR");
+        boolean hasConnected = stargateT.pipedConnectionWith(outputOfTheVortex);
 
         // Then
         assertThat(hasConnected).isTrue();
